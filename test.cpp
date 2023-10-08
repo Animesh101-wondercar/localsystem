@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstdlib>
 #include<vector>
+#include<array>
 using namespace std;
 int main(){
     vector<int>vt={0};
@@ -10,5 +11,8 @@ int main(){
     for(auto it:vt){
         cout<<" "<<it;
     }
+    cout<<" \n";
+    int arr[2]={1,2};
+   cout<<"check for -1 index gbg val :"; cout<<arr[-1];
     return 0;
 }
